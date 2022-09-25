@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Floor
+  - NormalWall
+  - WrongWall
+  - BouncingWall
+  - Ball
+  - GoalKeeper
   layers:
   - Default
   - TransparentFX
@@ -11,12 +17,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Floor
+  - GoalKeeper
+  - Ball
+  - NormalWall
+  - WrongWall
+  - BouncingWall
   - 
   - 
   - 
