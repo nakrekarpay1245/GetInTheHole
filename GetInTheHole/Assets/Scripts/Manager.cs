@@ -35,6 +35,7 @@ public class Manager : MonoBehaviour
         {
             case 0:
                 ball_1.SetActive(false);
+                FinishLevel(false);
                 break;
             case 1:
                 ball_2.SetActive(false);
@@ -53,5 +54,46 @@ public class Manager : MonoBehaviour
                 ball_3.SetActive(true);
                 break;
         }
+    }
+
+    // LEVEL START-END
+    private void StartLevel()
+    {
+        StartCoroutine(StartLevelRoutine());
+    }
+
+    private IEnumerator StartLevelRoutine()
+    {
+        Debug.Log("Level Started");
+
+        yield return new WaitForSeconds(1);
+    }
+
+    public void FinishLevel(bool _isLevelCompleted)
+    {
+        Debug.Log("Level Finished");
+
+        if (_isLevelCompleted)
+        {
+            StartCoroutine(LevelCompletedRoutine());
+        }
+        else
+        {
+            StartCoroutine(LevelFailedRoutine());
+        }
+    }
+
+    private IEnumerator LevelCompletedRoutine()
+    {
+        Debug.Log("Level Completed");
+
+        yield return new WaitForSeconds(1);
+    }
+
+    private IEnumerator LevelFailedRoutine()
+    {
+        Debug.Log("Level Failed");
+
+        yield return new WaitForSeconds(1);
     }
 }

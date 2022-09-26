@@ -37,6 +37,7 @@ public class GoalKeeper : MonoBehaviour
             winParticle.Play();
             audioSource.Play();
             DisplayCelebration();
+            Manager.instance.FinishLevel(true);
             enter.Invoke();
         }
     }

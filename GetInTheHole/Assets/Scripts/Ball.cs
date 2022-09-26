@@ -25,6 +25,9 @@ public class Ball : MonoBehaviour
     [SerializeField]
     private Vector3 direction;
 
+    private Vector3 startPosition;
+    public bool canForce;
+
     [SerializeField]
     private AudioSource audioSource;
     private void Awake()
@@ -32,36 +35,56 @@ public class Ball : MonoBehaviour
         rigidbodyComponent = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
         mainCamera = Camera.main;
+        startPosition = transform.position;
+        CanForce();
+    }
+
+    private void Start()
+    {
+        ChangeCursor.instance.HideCursor();
     }
 
     private void Update()
     {
+        if (Mathf.Abs(rigidbodyComponent.velocity.magnitude) <= 0.25f && !canForce)
+        {
+            ResetBall();
+        }
+
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(ray, out RaycastHit raycastHit))
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
+            if (canForce)
             {
-                previousPosition = new Vector3(raycastHit.point.x, 1, raycastHit.point.z);
-            }
-            else if (Input.GetKey(KeyCode.Mouse0))
-            {
-                currentPosition = new Vector3(raycastHit.point.x, 1, raycastHit.point.z);
-                direction = previousPosition - currentPosition;
-                directionDisplay.gameObject.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.Mouse0))
+                {
+                    previousPosition = new Vector3(raycastHit.point.x, 1, raycastHit.point.z);
+                }
+                else if (Input.GetKey(KeyCode.Mouse0))
+                {
+                    currentPosition = new Vector3(raycastHit.point.x, 1, raycastHit.point.z);
+                    direction = previousPosition - currentPosition;
+                    directionDisplay.gameObject.SetActive(true);
 
-                directionDisplay.SetPosition(0, transform.position);
-                directionDisplay.SetPosition(1, transform.position - direction);
+                    directionDisplay.SetPosition(0, transform.position);
+                    directionDisplay.SetPosition(1, transform.position - direction);
 
-                arrowDisplay.gameObject.SetActive(true);
-                arrowDisplay.transform.rotation = Quaternion.LookRotation(direction.normalized);
-            }
-            else if (Input.GetKeyUp(KeyCode.Mouse0))
-            {
-                directionDisplay.gameObject.SetActive(false);
-                direction = previousPosition - currentPosition;
-                arrowDisplay.gameObject.SetActive(false);
-                ThrowCylinder();
+                    arrowDisplay.gameObject.SetActive(true);
+                    arrowDisplay.transform.rotation = Quaternion.LookRotation(direction.normalized);
+
+                    ChangeCursor.instance.DisplayCursor();
+                }
+                else if (Input.GetKeyUp(KeyCode.Mouse0))
+                {
+                    CanNotForce();
+                    directionDisplay.gameObject.SetActive(false);
+                    direction = previousPosition - currentPosition;
+                    arrowDisplay.gameObject.SetActive(false);
+                    ThrowCylinder();
+
+                    ChangeCursor.instance.HideCursor();
+                }
             }
         }
     }
@@ -72,17 +95,39 @@ public class Ball : MonoBehaviour
         PlayKickSound();
     }
 
+    private void CanForce()
+    {
+        // Debug.Log("CAN");
+        canForce = true;
+    }
+
+    private void CanNotForce()
+    {
+        // Debug.Log("NOT");
+        canForce = false;
+    }
+
+    private void ResetBall()
+    {
+        // Debug.Log("RESET");
+        rigidbodyComponent.velocity = Vector3.zero;
+        rigidbodyComponent.angularVelocity = Vector3.zero;
+        transform.position = startPosition;
+        Manager.instance.DecreaseHealth();
+        CanForce();
+    }
+
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("WrongWall"))
         {
-            Manager.instance.DecreaseHealth();
             // Debug.Log("WrongWall"); 
             PlayKickSound();
+            ResetBall();
         }
         if (other.gameObject.CompareTag("NormalWall"))
         {
-            // Debug.Log("WrongWall");
+            // Debug.Log("NormalWall");
             PlayKickSound();
         }
     }
