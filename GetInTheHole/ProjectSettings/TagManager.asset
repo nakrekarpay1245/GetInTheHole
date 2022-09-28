@@ -6,10 +6,13 @@ TagManager:
   tags:
   - Floor
   - NormalWall
-  - WrongWall
-  - BouncingWall
   - Ball
   - GoalKeeper
+  - OppositePlayer
+  - NormalPlayer
+  - KickerPlayer
+  - WrongWall
+  - BouncingWall
   layers:
   - Default
   - TransparentFX
@@ -21,9 +24,9 @@ TagManager:
   - GoalKeeper
   - Ball
   - NormalWall
-  - WrongWall
-  - BouncingWall
-  - 
+  - OppositePlayer
+  - NormalPlayer
+  - KickerPlayer
   - 
   - 
   - 

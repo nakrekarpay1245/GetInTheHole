@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Ball : MonoBehaviour
 {
     [SerializeField]
     private float throwForce;
+    [SerializeField]
+    private float minimumVelocity = 0.5f;
 
     [SerializeField]
     private Rigidbody rigidbodyComponent;
@@ -25,7 +28,7 @@ public class Ball : MonoBehaviour
     [SerializeField]
     private Vector3 direction;
 
-    private Vector3 startPosition;
+    public Vector3 startPosition;
     public bool canForce;
 
     [SerializeField]
@@ -36,55 +39,69 @@ public class Ball : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         mainCamera = Camera.main;
         startPosition = transform.position;
-        CanForce();
-    }
-
-    private void Start()
-    {
-        ChangeCursor.instance.HideCursor();
+        canForce = true;
+        StartCoroutine(ResetControl());
     }
 
     private void Update()
     {
-        if (Mathf.Abs(rigidbodyComponent.velocity.magnitude) <= 0.25f && !canForce)
+        if (!Manager.instance.isLevelFinished)
         {
-            ResetBall();
-        }
+            Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
 
-        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-
-        if (Physics.Raycast(ray, out RaycastHit raycastHit))
-        {
-            if (canForce)
+            if (Physics.Raycast(ray, out RaycastHit raycastHit))
             {
-                if (Input.GetKeyDown(KeyCode.Mouse0))
+                if (canForce)
                 {
-                    previousPosition = new Vector3(raycastHit.point.x, 1, raycastHit.point.z);
+                    if (Input.GetKeyDown(KeyCode.Mouse0))
+                    {
+                        previousPosition = new Vector3(raycastHit.point.x, 1, raycastHit.point.z);
+                    }
+
+                    else if (Input.GetKey(KeyCode.Mouse0))
+                    {
+                        currentPosition = new Vector3(raycastHit.point.x, 1, raycastHit.point.z);
+                        direction = previousPosition - currentPosition;
+                        directionDisplay.gameObject.SetActive(true);
+
+                        directionDisplay.SetPosition(0, transform.position);
+                        directionDisplay.SetPosition(1, transform.position - direction);
+
+                        arrowDisplay.gameObject.SetActive(true);
+                        arrowDisplay.transform.rotation = Quaternion.LookRotation(direction.normalized);
+                    }
+
+
+                    else if (Input.GetKeyUp(KeyCode.Mouse0))
+                    {
+                        CanNotForce();
+                        rigidbodyComponent.isKinematic = false;
+                        directionDisplay.gameObject.SetActive(false);
+                        direction = previousPosition - currentPosition;
+                        arrowDisplay.gameObject.SetActive(false);
+                        ThrowCylinder();
+                    }
                 }
-                else if (Input.GetKey(KeyCode.Mouse0))
-                {
-                    currentPosition = new Vector3(raycastHit.point.x, 1, raycastHit.point.z);
-                    direction = previousPosition - currentPosition;
-                    directionDisplay.gameObject.SetActive(true);
+            }
+        }
+    }
 
-                    directionDisplay.SetPosition(0, transform.position);
-                    directionDisplay.SetPosition(1, transform.position - direction);
+    private IEnumerator ResetControl()
+    {
+        while (!canForce)
+        {
+            Debug.Log("Reset Control");
+            yield return new WaitForSeconds(0.15f);
 
-                    arrowDisplay.gameObject.SetActive(true);
-                    arrowDisplay.transform.rotation = Quaternion.LookRotation(direction.normalized);
+            if (Mathf.Abs(rigidbodyComponent.velocity.magnitude) <= minimumVelocity && !canForce)
+            {
+                ResetBall();
+            }
 
-                    ChangeCursor.instance.DisplayCursor();
-                }
-                else if (Input.GetKeyUp(KeyCode.Mouse0))
-                {
-                    CanNotForce();
-                    directionDisplay.gameObject.SetActive(false);
-                    direction = previousPosition - currentPosition;
-                    arrowDisplay.gameObject.SetActive(false);
-                    ThrowCylinder();
-
-                    ChangeCursor.instance.HideCursor();
-                }
+            if (Mathf.Abs(rigidbodyComponent.velocity.magnitude) <= (minimumVelocity * 5))
+            {
+                rigidbodyComponent.velocity = Vector3.MoveTowards(rigidbodyComponent.velocity,
+                    Vector3.zero, Time.deltaTime * 0.25f);
             }
         }
     }
@@ -93,11 +110,12 @@ public class Ball : MonoBehaviour
     {
         rigidbodyComponent.AddForce(direction * throwForce, ForceMode.Impulse);
         PlayKickSound();
+        StartCoroutine(ResetControl());
     }
 
     private void CanForce()
     {
-        // Debug.Log("CAN");
+        Debug.Log("CAN");
         canForce = true;
     }
 
@@ -109,25 +127,40 @@ public class Ball : MonoBehaviour
 
     private void ResetBall()
     {
-        // Debug.Log("RESET");
-        rigidbodyComponent.velocity = Vector3.zero;
-        rigidbodyComponent.angularVelocity = Vector3.zero;
-        transform.position = startPosition;
+        Debug.Log("RESET");
+        transform.DOMove(startPosition, 0);
+
+        rigidbodyComponent.isKinematic = true;
+
         Manager.instance.DecreaseHealth();
+
         CanForce();
     }
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("WrongWall"))
+        if (other.gameObject.CompareTag("OppositePlayer"))
         {
-            // Debug.Log("WrongWall"); 
+            Debug.Log("OppositePlayer");
             PlayKickSound();
             ResetBall();
         }
+
+        if (other.gameObject.CompareTag("NormalPlayer"))
+        {
+            Debug.Log("NormalPlayer");
+            PlayKickSound();
+        }
+
         if (other.gameObject.CompareTag("NormalWall"))
         {
-            // Debug.Log("NormalWall");
+            Debug.Log("NormalWall");
+            PlayKickSound();
+        }
+
+        if (other.gameObject.CompareTag("KickerPlayer"))
+        {
+            Debug.Log("KickerPlayer");
             PlayKickSound();
         }
     }

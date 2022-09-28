@@ -1,0 +1,567 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1664224898071104, "dur": 917810, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664224898071507, "dur": 7538, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664224898079046, "dur": 45382, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664224898124430, "dur": 425136, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664224898549568, "dur": 430728, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664224898980298, "dur": 8616, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664224898992108, "dur": 21, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1664224898325892, "dur": 196351, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664224898327594, "dur": 71639, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664224898497185, "dur": 7019, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664224898504208, "dur": 18026, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664224898505321, "dur": 16158, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664224898529147, "dur": 2064, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664224898527955, "dur": 3293, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664224898994254, "dur": 632, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1664224898606341, "dur":1780, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898608134, "dur":107, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1664224898608299, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1664224898608329, "dur":1921, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1664224898610395, "dur":755, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898611150, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898930331, "dur":470, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898930801, "dur":695, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898931497, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898931502, "dur":703, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898932205, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898932210, "dur":551, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898932761, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898932765, "dur":497, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898933262, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898933265, "dur":494, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898933759, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898933763, "dur":495, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898934258, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898934260, "dur":496, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898934756, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898934758, "dur":493, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898935251, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898935260, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898935285, "dur":6519, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1664224898609001, "dur":2182, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898611186, "dur":8393, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898619596, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664224898619604, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898623196, "dur":354, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664224898623555, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664224898623695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898624072, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664224898627536, "dur":2836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1664224898630376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898630394, "dur":5973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1664224898636519, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1664224898636715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898636725, "dur":14606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1664224898651452, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898651855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898651863, "dur":5228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898657224, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898657658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898657667, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898659465, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898659803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898659814, "dur":11097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898671020, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898671425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898671433, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898673605, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898673923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898673930, "dur":23817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898697846, "dur":681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898698552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898698561, "dur":6337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898705008, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898705543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898705551, "dur":10453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898716098, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898716645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898716661, "dur":4153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898720999, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898721463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898721486, "dur":4880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898726441, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898726856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898726864, "dur":9194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898736191, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898736622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898736630, "dur":5326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898742104, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898742506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898742517, "dur":4900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898747560, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898748056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898748068, "dur":6265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898754446, "dur":1432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898755909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898755921, "dur":4973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898760991, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898761277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898761286, "dur":5578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898766968, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898767256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898767264, "dur":4089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898771494, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898772121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898772137, "dur":4970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898777207, "dur":605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898777816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898777824, "dur":4219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898782210, "dur":847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898783061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898783069, "dur":4299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898787494, "dur":798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898788303, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898788324, "dur":4607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898793123, "dur":849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898793979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898793991, "dur":5613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664224898799690, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1664224898799796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898799803, "dur":6481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1664224898806400, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1664224898806515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898806525, "dur":15862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1664224898822558, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1664224898822719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664224898822732, "dur":4980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1664224898827847, "dur":102482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898609060, "dur":2152, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898611212, "dur":8394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898619607, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1664224898620061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898623921, "dur":7231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1664224898631302, "dur":4480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1664224898635788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898635802, "dur":2270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1664224898638243, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1664224898638545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898639089, "dur":51585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1664224898690778, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898691159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898691168, "dur":7240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898698524, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898698913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898698924, "dur":6541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898705585, "dur":543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898706134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898706142, "dur":10965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898717221, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898717670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898717682, "dur":7788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898725613, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898726049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898726061, "dur":9923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898736131, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898736553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898736561, "dur":5734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898742409, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898742818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898742832, "dur":4890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898747879, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898748364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898748376, "dur":5253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898753758, "dur":1162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898754925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898754939, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898758512, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898758989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898759001, "dur":6595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898765729, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898766175, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898766195, "dur":4141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898770463, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898770932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898770952, "dur":4782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898775847, "dur":899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898776754, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898776773, "dur":4326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898781206, "dur":674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898781885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898781900, "dur":4849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898786871, "dur":2010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898788892, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898788908, "dur":5640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898794691, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898795022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898795030, "dur":4581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664224898799698, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1664224898799779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898799786, "dur":6684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1664224898806583, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1664224898807000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898807011, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1664224898811497, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level4.resS" }}
+,{ "pid":12345, "tid":2, "ts":1664224898811600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898811609, "dur":4922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level4.resS" }}
+,{ "pid":12345, "tid":2, "ts":1664224898816671, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1664224898816822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898816834, "dur":6063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1664224898823050, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1664224898823207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664224898823219, "dur":5463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1664224898828765, "dur":101532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898609283, "dur":1949, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898611232, "dur":8373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898619605, "dur":3961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1664224898623570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898623980, "dur":4373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1664224898628547, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1664224898628848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898629036, "dur":5891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1664224898635079, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1664224898635363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898635377, "dur":2593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1664224898638124, "dur":1114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!.exe" }}
+,{ "pid":12345, "tid":3, "ts":1664224898639242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898639249, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!.exe" }}
+,{ "pid":12345, "tid":3, "ts":1664224898642449, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898642842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898642977, "dur":3553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898646603, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898646957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898646965, "dur":9693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898656773, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898657104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898657114, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898659151, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898659513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898659522, "dur":11089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898670696, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898671109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898671126, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898673071, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898673434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898673443, "dur":20474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898694005, "dur":1388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898695397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898695406, "dur":4157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898699634, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898700099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898700107, "dur":5514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898705741, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898706185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898706193, "dur":11000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898717335, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898717890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898717901, "dur":7854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898725944, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898726496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898726511, "dur":9689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898736322, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898736717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898736726, "dur":5355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898742248, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898742696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898742707, "dur":4869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898747722, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898748128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898748136, "dur":5457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898753733, "dur":1067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898754806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898754823, "dur":3267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898758228, "dur":1465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898759699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898759711, "dur":6684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898766529, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898766865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898766901, "dur":4606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898771641, "dur":3643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898775290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898775301, "dur":6417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898781834, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898782293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898782305, "dur":4753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898787185, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898787742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898787759, "dur":4373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898792231, "dur":1143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898793392, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898793410, "dur":5072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664224898798614, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1664224898798896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898800910, "dur":5267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1664224898806260, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1664224898806357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898806366, "dur":4383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1664224898810923, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664224898811066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898811084, "dur":5180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664224898816523, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1664224898816661, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898816686, "dur":6217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1664224898823022, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664224898823175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664224898823187, "dur":5361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664224898828637, "dur":101654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898609510, "dur":1749, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898611259, "dur":8338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898619598, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1664224898619970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898624099, "dur":4504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1664224898628753, "dur":5117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1664224898633879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898633897, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1664224898636821, "dur":34430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898671259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898679389, "dur":9234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898688773, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898689161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898689171, "dur":8892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898698230, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898698712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898698723, "dur":6090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898704929, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898705458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898705471, "dur":10551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898716147, "dur":763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898716916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898716928, "dur":3872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898721000, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898721339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898721348, "dur":4922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898726414, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898726760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898726768, "dur":9438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898736304, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898736688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898736696, "dur":5581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898742396, "dur":1896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898744296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898744304, "dur":8528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898753067, "dur":1035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898754109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898754125, "dur":3851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898758112, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898758815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898758829, "dur":6857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898765819, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898766291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898766302, "dur":4280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898770704, "dur":749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898771460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898771475, "dur":4351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898775959, "dur":2102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898778094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898778107, "dur":7889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898786136, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898786705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898786718, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898789280, "dur":1523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898790811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898790828, "dur":3740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898794671, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898794950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898794957, "dur":4815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664224898799846, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1664224898799909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898799916, "dur":6487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1664224898806564, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1664224898806713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898806723, "dur":5195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1664224898812076, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1664224898812296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898812309, "dur":4826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1664224898817210, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1664224898817309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898817320, "dur":6014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1664224898823437, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1664224898823783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664224898823791, "dur":4751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1664224898828664, "dur":101629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664224898609652, "dur":1633, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664224898611285, "dur":8303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664224898619596, "dur":7235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1664224898626835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664224898627378, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1664224898629625, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1664224898629863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664224898630311, "dur":7237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1664224898637870, "dur":271740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664224898909616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664224898909626, "dur":20504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664224898930251, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1664224898930257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898609976, "dur":1336, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898611313, "dur":8294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898619608, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1664224898619961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898623661, "dur":4997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1664224898628846, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1664224898629172, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898629212, "dur":5640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1664224898634993, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1664224898635246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898635256, "dur":4087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1664224898639457, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898639849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898640850, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898642684, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898643019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898643027, "dur":3479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898646578, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898646901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898646909, "dur":9961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898657016, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898657402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898657411, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898659619, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898659910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898659918, "dur":11069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898671122, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898671489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898671497, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898673559, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898673984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898673993, "dur":23889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898697970, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898698471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898698485, "dur":5846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898704551, "dur":608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898705166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898705181, "dur":5851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898711102, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898711461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898711468, "dur":5712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898717256, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898717670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898717682, "dur":7487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898725348, "dur":584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898725938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898725948, "dur":9360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898735478, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898735942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898735954, "dur":5284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898741370, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898741851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898741868, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898743881, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898744221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898744229, "dur":4139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898748479, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898749029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898749038, "dur":5261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898754427, "dur":1165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898755600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898755614, "dur":3452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898759210, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898759803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898759816, "dur":6664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898766584, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898767006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898767018, "dur":4451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898771666, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898772323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898772340, "dur":4903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898777360, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898777765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898777780, "dur":4439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898782345, "dur":3631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898785982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898785998, "dur":7037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898793170, "dur":829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898794004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898794016, "dur":5224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664224898799378, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1664224898799489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898800813, "dur":5743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1664224898806685, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1664224898806820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898806830, "dur":7112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1664224898814113, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1664224898814254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898814269, "dur":3031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1664224898817394, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1664224898817462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664224898817469, "dur":6058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1664224898823667, "dur":106628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898610116, "dur":1216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898611333, "dur":8271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898619605, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1664224898620021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898623912, "dur":5475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1664224898629528, "dur":4794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1664224898634328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898634715, "dur":3050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1664224898637960, "dur":64189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1664224898702153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898702161, "dur":4079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1664224898706335, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898706678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898706686, "dur":10480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898717248, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898717743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898717756, "dur":7444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898725396, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898725866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898725880, "dur":9099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898735096, "dur":632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898735734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898735748, "dur":5831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898741719, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898742269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898742283, "dur":5048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898747456, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898747893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898747909, "dur":5205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898753268, "dur":1192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898754466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898754478, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898756999, "dur":602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898757607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898757621, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898759660, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898760317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898760329, "dur":6380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898766855, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898767226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898767234, "dur":4290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898771648, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898772085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898772137, "dur":4788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898777091, "dur":699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898777795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898777805, "dur":4382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898782313, "dur":4388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898786707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898786745, "dur":6034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898792910, "dur":5453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898798371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898798386, "dur":4863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664224898803337, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1664224898803400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898803409, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1664224898806641, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1664224898807018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898807029, "dur":4372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1664224898811556, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1664224898811732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898811742, "dur":4764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1664224898816618, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1664224898816737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898816749, "dur":6019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1664224898822906, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1664224898823035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664224898823047, "dur":5060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/Kick UP!_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1664224898828260, "dur":102034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664224898610370, "dur":976, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664224898611347, "dur":8252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664224898619599, "dur":7084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1664224898626690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664224898626721, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1664224898629435, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1664224898629644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664224898630713, "dur":6531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1664224898637400, "dur":182774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664224898820180, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664224898820398, "dur":8847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rknyp/Desktop/Leaf/GameBuilds/KickUp_V0.1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664224898829335, "dur":100957, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664224898947417, "dur":2612, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1664224898995072, "dur": 1398, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664224898992093, "dur": 4419, "ph": "X", "name": "Write chrome-trace events", "args": {} },

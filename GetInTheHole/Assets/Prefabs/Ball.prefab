@@ -4953,8 +4953,8 @@ Rigidbody:
   m_GameObject: {fileID: 5899926938411409558}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0
+  m_Drag: 0.25
+  m_AngularDrag: 0.25
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4986,6 +4986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   throwForce: 5
+  minimumVelocity: 0.5
   rigidbodyComponent: {fileID: 0}
   mainCamera: {fileID: 0}
   directionDisplay: {fileID: 0}
@@ -4993,6 +4994,8 @@ MonoBehaviour:
   previousPosition: {x: 0, y: 0, z: 0}
   currentPosition: {x: 0, y: 0, z: 0}
   direction: {x: 0, y: 0, z: 0}
+  startPosition: {x: 0, y: 0, z: 0}
+  canForce: 0
   audioSource: {fileID: 0}
 --- !u!82 &5899926938411409554
 AudioSource:
@@ -5115,8 +5118,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6497478639232951966}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0, z: 1.5}
-  m_LocalScale: {x: 0.025, y: 0.1, z: 0.1}
+  m_LocalPosition: {x: 0, y: -0, z: 2}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6497478640322304580}
@@ -5163,8 +5166,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b6586d5cc98f7284a858997b15c8fed9, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 2f9fe730756b67d4cb2b1799606e1a48, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

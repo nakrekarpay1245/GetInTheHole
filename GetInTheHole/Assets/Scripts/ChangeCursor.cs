@@ -10,16 +10,15 @@ public class ChangeCursor : MonoBehaviour
     private Camera mainCamera;
     private Vector3 modifiedCursorPosition;
 
-    public static ChangeCursor instance;
-
     private void Awake()
     {
-        if (!instance)
-        {
-            instance = this;
-        }
         mainCamera = Camera.main;
         Cursor.visible = false;
+    }
+
+    private void Update()
+    {
+        DisplayCursor();
     }
 
     public void DisplayCursor()
@@ -30,10 +29,5 @@ public class ChangeCursor : MonoBehaviour
             2, mainCamera.ScreenToWorldPoint(Input.mousePosition).z);
 
         modifiedCursor.transform.position = modifiedCursorPosition;
-    }
-
-    public void HideCursor()
-    {
-        modifiedCursor.transform.localScale = Vector3.zero;
     }
 }
