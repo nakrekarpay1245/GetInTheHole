@@ -311,6 +311,7 @@
 "Assets/Scripts/ChangeCursor.cs"
 "Assets/Scripts/GoalKeeper.cs"
 "Assets/Scripts/Manager.cs"
+"Assets/Scripts/SoccerPlayerMovement.cs"
 -langversion:9.0
 
 /deterministic
